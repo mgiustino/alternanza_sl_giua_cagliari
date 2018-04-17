@@ -1,0 +1,45 @@
+/*Estetica pulsanti*/
+body{
+	background: #2d2d2d;
+}
+input[type="text"] {
+   text-align: center;
+}
+ .tablinks{ 
+  	outline:  none;
+  	margin-left: 65px;
+  	margin-top: 20px;
+ 	border-radius: 10px;
+  	border: none;
+  	text-align: center;
+  	background-color:#ff8800;
+  	width: 18%;
+  	height: 40px; 
+  	cursor: pointer;
+  }
+  /*Estetica tab*/
+  .tabcontent {
+  	border-radius: 10px;
+  	width:70%;
+  	height: auto;
+  	background-color: #3d3d3d;
+    display: none;
+    cursor: pointer;
+    outline:  none;
+    margin-top: 10px;
+  }
+  .icone{
+  	cursor: pointer;
+    outline:  none;
+    background-color: #3d3d3d;
+    margin: 5px;
+    margin-left: 4px;
+    border:none;
+  	padding:15px;
+  	width: 15px;
+  	height: 15px;
+  	background-image: url('1.png');
+  	background-size: 27px 27px;
+	background-repeat: no-repeat;
+	background-position: center;
+  }
