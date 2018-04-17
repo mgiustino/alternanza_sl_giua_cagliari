@@ -1,0 +1,29 @@
+.dropdown {                          
+    position: sticky;
+    top: 0;
+    margin-top: -70px; 
+    display: absolute;
+    z-index: 5000;
+}
+.btn2 {
+    background: #333;
+    width: 60px;
+    height: 60px;
+    font-size: 18px;
+    padding: 12px 16px;
+    border: none;
+}
+
+.btn2:hover {
+    background: #333;
+    background-color: #333;
+}
+
+.btn-primary:active{
+  background: #333;
+}
+
+.dropdown-menu{
+  margin-top: -1px;
+  position: absolute;
+}
